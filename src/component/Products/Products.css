@@ -6,3 +6,20 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
+@media screen and(max-width:900) {
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+  .product-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and(max-width:500) {
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+  .product-container {
+    grid-template-columns: 1fr;
+  }
+}

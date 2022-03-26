@@ -5,17 +5,27 @@
 .product {
   padding: 10px;
   margin: 0 15px;
-  border: 1px solid yellow;
+  border: 1px solid gray;
   margin-bottom: 10px;
   border-radius: 8px;
+  position: relative;
 }
 .btn-cart {
   width: 100%;
-  border: none;
-  height: 20px;
-  font-size: 15px;
+  background-color: #ffe0b3;
+  border-radius: 10px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
-.btn-cart btn-text {
-  width: 100%;
-  margin: 5px;
+.btn-cart .btn-text {
+  margin-right: 5px;
+}
+.btn-cart:hover {
+  background-color: orange;
+  color: orangered;
 }
