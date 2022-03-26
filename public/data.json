@@ -1,57 +1,56 @@
-
 [
-    {
-      "id": "623df35ebc893fb7396a3521",
-      "price": 350,
-      "name": "Lupe Thomas",
-      "image": "images/necklace.jpg"
-    },
-    {
-      "id": "623df35e618f6c94be4d3847",
-      "price": 309,
-      "name": "Bryan Ruiz",
-      "image": "link"
-    },
-    {
-      "id": "623df35e46103cb5af77e759",
-      "price": 91,
-      "name": "Kathleen Mckenzie",
-      "image": "link"
-    },
-    {
-      "id": "623df35e519bfd04223da426",
-      "price": 368,
-      "name": "Patsy Woodard",
-      "image": "link"
-    },
-    {
-      "id": "623df35e1554fa9e4f27b217",
-      "price": 162,
-      "name": "Brewer Glenn",
-      "image": "link"
-    },
-    {
-      "id": "623df35e483c36f55902502e",
-      "price": 33,
-      "name": "Lara Hicks",
-      "image": "link"
-    },
-    {
-      "id": "623df35ea205aa6d6b2507f3",
-      "price": 22,
-      "name": "Sally Espinoza",
-      "image": "link"
-    },
-    {
-      "id": "623df35e222f3c19a1a2b4e5",
-      "price": 21,
-      "name": "Norton Langley",
-      "image": "link"
-    },
-    {
-      "id": "623df35e7305bcb4ef964209",
-      "price": 317,
-      "name": "Merritt Pierce",
-      "image": "link"
-    }
-  ]
+  {
+    "id": "623df35ebc893fb7396a3521",
+    "price": 35000,
+    "name": "Necklace Designs",
+    "image": "https://i.pinimg.com/474x/04/a5/d4/04a5d4fa5b0208351802db61b8f5b1cd.jpg"
+  },
+  {
+    "id": "623df35e618f6c94be4d3847",
+    "price": 19900,
+    "name": "Earrings Design",
+    "image": "https://i.ytimg.com/vi/esFFas2os2o/hqdefault.jpg"
+  },
+  {
+    "id": "623df35e46103cb5af77e759",
+    "price": 22000,
+    "name": "Gold Plated Earring",
+    "image": "https://i.pinimg.com/736x/60/97/97/6097975ec6d7b4f5fbde2a4a3eafc295.jpg"
+  },
+  {
+    "id": "623df35e519bfd04223da426",
+    "price": 18000,
+    "name": "Jhumka Gold Earrings",
+    "image": "https://5.imimg.com/data5/RJ/PM/MY-2167390/jhumkis-500x500.jpg"
+  },
+  {
+    "id": "623df35e1554fa9e4f27b217",
+    "price": 30000,
+    "name": "Gold Chain",
+    "image": "https://www.candere.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/k/m/kmuch503-c.jpg"
+  },
+  {
+    "id": "623df35e483c36f55902502e",
+    "price": 38000,
+    "name": "Latest Gold Naclac",
+    "image": "https://i.pinimg.com/474x/70/8d/7e/708d7e05510af6e2f7d5dce69d00c5e3.jpg"
+  },
+  {
+    "id": "623df35ea205aa6d6b2507f3",
+    "price": 28000,
+    "name": "Yellow Gold Chain",
+    "image": "https://m.media-amazon.com/images/I/71xyFaYGBDL._UL1500_.jpg"
+  },
+  {
+    "id": "623df35e222f3c19a1a2b4e5",
+    "price": 21,
+    "name": "Pin Gold Bangles",
+    "image": "https://i.pinimg.com/originals/e0/b0/cd/e0b0cd1cb4cc0835ec4791a95139dbfc.jpg"
+  },
+  {
+    "id": "623df35e7305bcb4ef964209",
+    "price": 317,
+    "name": "Golden Churi Set",
+    "image": "https://static-01.daraz.com.bd/p/a89165081abfd827efb13f892c5d8964.jpg"
+  }
+]

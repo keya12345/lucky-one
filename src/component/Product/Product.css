@@ -1,0 +1,21 @@
+.product img {
+  height: 350px;
+  width: 350px;
+}
+.product {
+  padding: 10px;
+  margin: 0 15px;
+  border: 1px solid yellow;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.btn-cart {
+  width: 100%;
+  border: none;
+  height: 20px;
+  font-size: 15px;
+}
+.btn-cart btn-text {
+  width: 100%;
+  margin: 5px;
+}
