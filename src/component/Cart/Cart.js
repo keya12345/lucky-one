@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Item from '../Item/Item';
 import './Cart.css'
-const Cart = ({items}) => {
+const Cart = ({items,remove}) => {
     const [rendom,setRendom]=useState(null)
   const rendomItem=()=>{
     const indexNum = Math.floor(Math.random()*items.length);
@@ -24,7 +24,7 @@ const Cart = ({items}) => {
                     </div>
                 )
             }
-            <button >Choose Again</button>
+            <button onClick={()=>remove()}>Choose Again</button>
             </div>
         </div>
     );

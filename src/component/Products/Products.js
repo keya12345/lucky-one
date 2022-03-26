@@ -9,7 +9,7 @@ const Products = () => {
     const [cart, setCart] = useState([])
     
     const handleAddToCart=(product)=>{
-        console.log(product)
+        
         const newCart=[...cart,product]
         setCart(newCart)
     }
@@ -18,6 +18,10 @@ const Products = () => {
         .then(res=>res.json())
         .then(data=>setProducts(data))
     },[])
+
+    function remove(){
+        setCart([]);
+      }
     
     return (
         <div className=" main-container row">
@@ -27,7 +31,7 @@ const Products = () => {
           } 
        </div>
        <div className='col-md-12'>
-           <Cart items={cart}></Cart>
+           <Cart items={cart} remove={remove}></Cart>
        </div>
         </div>
     );
