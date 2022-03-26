@@ -1,3 +1,7 @@
+.cart {
+  position: sticky;
+  top: 0;
+}
 .btn-item {
   display: grid;
   grid-template-columns: 1fr;

@@ -9,7 +9,7 @@ const Product = ({product,handleAddToCart}) => {
         <div className='product'>
           
           <img src={image} alt="" /> 
-          <h3>Name:{name}</h3>
+          <p>Name:{name}</p>
           <p>Price:{price}</p> 
           
           <button onClick={()=>handleAddToCart(product)} className='btn-cart'>
