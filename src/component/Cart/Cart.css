@@ -11,3 +11,10 @@
 .btn-item button {
   margin: 5px;
 }
+.rendomItem img {
+  width: 30px;
+  margin-right: 5px;
+}
+.rendomItem {
+  display: flex;
+}
