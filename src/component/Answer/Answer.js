@@ -1,10 +1,11 @@
 import React from 'react';
-
+import './Answer.css'
 const Answer = () => {
     return (
         <div>
             
             <div>
+                <h2 className='answer'>ANSWER</h2>
               <h4>Questions:How to react work</h4>
               <h5>Ans:<small> React creates a virtual dome in Crete with the original dome.We see the original DOM. Virtual DOM is not a show. If you want to make any changes to JavaScript,React checks the original DOM with JavaScript's virtual DOM and then changes it to the original DOM.</small></h5>
             </div>

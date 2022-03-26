@@ -2,11 +2,12 @@ import React from 'react';
 import './Product.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+
 const Product = ({product,handleAddToCart}) => {
     console.log(product)
     const {name,image,price}=product
     return (
-        <div className='product'>
+        <div className='product col-md-12'>
           
           <img src={image} alt="" /> 
           <p>Name:{name}</p>

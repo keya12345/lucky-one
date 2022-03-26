@@ -8,7 +8,7 @@ import Answer from './component/Answer/Answer';
 function App() {
   return (
     <div >
-      <h1 className='text-center'>MY GOLD HOUSE</h1>
+      <h1 className='text-center title'>MY GOLD HOUSE</h1>
       <Products></Products>
      <Answer></Answer>
      

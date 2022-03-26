@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.title {
+  color: chocolate;
+}
+.title:hover {
+  color: rgb(238, 241, 14);
+}

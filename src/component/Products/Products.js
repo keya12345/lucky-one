@@ -3,9 +3,11 @@ import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Products.css'
 
+
 const Products = () => {
     const [products,setProducts]=useState([])
     const [cart, setCart] = useState([])
+    
     const handleAddToCart=(product)=>{
         console.log(product)
         const newCart=[...cart,product]
@@ -18,14 +20,13 @@ const Products = () => {
     },[])
     
     return (
-        <div className=" main-container">
-            <div className='product-container'>
-          
-          {
+        <div className=" main-container row">
+            <div className='product-container col-md-12'>
+           {
               products.map(product=> <Product product={product} key={product.id} handleAddToCart={handleAddToCart}></Product>)
           } 
        </div>
-       <div>
+       <div className='col-md-12'>
            <Cart items={cart}></Cart>
        </div>
         </div>
