@@ -1,0 +1,9 @@
+.btn-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 50%;
+  margin: 5px;
+}
+.btn-item button {
+  margin: 5px;
+}

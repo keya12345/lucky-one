@@ -26,7 +26,7 @@ const Products = () => {
           } 
        </div>
        <div>
-           <Cart cart={cart}></Cart>
+           <Cart items={cart}></Cart>
        </div>
         </div>
     );
